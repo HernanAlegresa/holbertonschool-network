@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 #dafa
 
+sudo cp /etc/hosts /etc/hosts.backup
+
 echo "127.0.0.2 localhost" >> /etc/hosts
 echo "8.8.8.8 facebook.com" >> /etc/hosts

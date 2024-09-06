@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+#yessss
+
+ifconfig | grep "inet " | cut -d' ' -f10

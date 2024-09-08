@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 # boe
 
-ss -lntp
+netstat -l -p

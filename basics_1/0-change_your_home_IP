@@ -1,7 +1,5 @@
 #!/usr/bin/env bash
-#dafa
+# change IP.
 
-sudo cp /etc/hosts /etc/hosts.backup
-
-echo "127.0.0.2 localhost" >> /etc/hosts
-echo "8.8.8.8 facebook.com" >> /etc/hosts
+echo -e "127.0.0.2\tlocalhost" > /etc/hosts
+echo -e "8.8.8.8\tfacebook.com" >> /etc/hosts
